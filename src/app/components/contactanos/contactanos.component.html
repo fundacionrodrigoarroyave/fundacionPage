@@ -1,0 +1,67 @@
+<div class="container animated fadeIn"><div class="formulario animated fadeInLeft">
+  <h2>Contáctenos</h2>
+  <p>¡Dejanos tu mensaje y nos pondremos en contacto!</p>
+  <form action="enviar.php" method="post">
+    <div class="row form-group">
+      <div class="col">
+        <input type="text" placeholder="Institución" name="institucion" aria-label="Institución" required="" class="form-control"></div>
+    </div>
+  <div class="row form-group">
+    <div class="col">
+      <input type="text" placeholder="Nombre" name="nombre" aria-label="Nombre" required="" class="form-control"></div>
+    <div class="col">
+      <input type="text" placeholder="Nit" name="nit" aria-label="Nit" required="" class="form-control"></div>
+  </div>
+    <div class="row form-group">
+  <div class="col">
+    <input type="text" placeholder="Teléfono" name="telefono" aria-label="telefono" required="" class="form-control"></div>
+  <div class="col">
+    <input type="text" placeholder="Correo" name="correo" aria-label="Correo" required="" class="form-control"></div>
+  </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Mensaje" name="mensaje" id="exampleFormControlTextarea1" rows="3" required="" class="form-control"></textarea>
+  </div>
+      <div class="form-check"> 
+        <input type="checkbox" (click)="onClickMe(1)" value="" id="flexCheckDefault" class="form-check-input">
+        <label for="flexCheckDefault" class="form-check-label"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Política de protección de datos</a></label></div>
+        <input type="submit" disabled class="btn btn-primary" value="Enviar" id="btnSend">
+  </form>
+</div>
+<div class="imagen"><img src="../../../assets/FRA 1.jpg" alt=""></div> 
+<div class="imagen2"><img src="../../../assets/frase contactanos.png" alt=""></div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Política de protección de
+          datos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"
+          aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <embed src="../../../assets/Políticas de Protección de Datos Personales - FUNDACION RODRIGO ARROYAVE (1).pdf" type="application/pdf" width="100%" height="600px" />-->
+        <img src="../../../assets/datos1.jpg" alt="">
+        <img src="../../../assets/datos2.jpg" alt="">
+        <img src="../../../assets/datos3.jpg" alt="">
+        <img src="../../../assets/datos4.jpg" alt="">
+        <img src="../../../assets/datos5.jpg" alt="">
+        <img src="../../../assets/datos6.jpg" alt="">
+        <img src="../../../assets/datos7.jpg" alt="">
+        <img src="../../../assets/datos8.jpg" alt="">
+        <img src="../../../assets/datos9.jpg" alt="">
+        <img src="../../../assets/datos10.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>

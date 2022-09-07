@@ -1,0 +1,76 @@
+.container{
+    margin-top: 50px;
+ 
+}
+
+input, textarea{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.formulario{
+    width: 60%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.modal-body{
+    width: 100%;
+}
+.modal-body img{
+    width: 100%;
+}
+
+button{
+    margin-top: 50px;
+    clear: both;
+    float: none;
+}
+
+.imagen{
+    float: right;
+    width: 25%;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.imagen2{
+    width: 20%;
+    float: right;
+}
+
+.imagen2 img{
+    width: 100%;
+}
+
+@media screen and (max-width:615px){
+.formulario{
+    width: 90%;
+    margin: auto;
+    float: none;
+}
+.imagen{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    float: none;
+    margin-top: 30px;
+}
+
+.imagen2{
+    width: 40%;
+    margin: auto;
+    float: none;
+    margin-bottom: 30px;
+}
+}
